@@ -1,0 +1,23 @@
+{
+  "name": "node-worker-template",
+  "version": "1.0.0",
+  "description": "Template untuk worker berbasis Node.JS",
+  "main": "bin/www",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "worker",
+    "daemon",
+    "javascript"
+  ],
+  "author": "Mohamad Radisha <pr0ph0z23@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "dotenv": "^7.0.0",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.1"
+  }
+}
