@@ -11,3 +11,13 @@ Repository ini berguna untuk mengambil base-template untuk worker menggunakan No
 ## Penjelasan
 
 Repository ini dasarnya menggunakan RabbitMQ dengan utamanya protokol AMQP sebagai message brokernya. Lalu dilanjutkan MongoDB sebagai penyimpanan data.
+
+## Instalasi
+
+1. Clone project ini (`git clone https://github.com/pptik/node-worker-template.git`)
+2. Ganti ke directory project (`cd node-worker-template`)
+3. Install secara global (`npm install -g`)
+
+## Penggunaan
+
+Gunakan perintah `tem-gen` lalu isi yang dibutuhkan.
