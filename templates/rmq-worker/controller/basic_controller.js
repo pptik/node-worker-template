@@ -1,7 +1,7 @@
 const MongoClient = require('mongodb').MongoClient
 const config = require('../config')
 
-exports.create = async (message) => {
+exports.create = async (message, channel) => {
   try {
     let client = await MongoClient.connect(config.mongo, { useNewUrlParser: true, useUnifiedTopology: true })
     let database = await client.db()
