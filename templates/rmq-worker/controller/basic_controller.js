@@ -1,5 +1,6 @@
 const MongoClient = require('mongodb').MongoClient
 const config = require('../config')
+const publisher = require('../services/publisher')
 
 exports.create = async (message, channel) => {
   try {
@@ -11,6 +12,7 @@ exports.create = async (message, channel) => {
       // payload to insert
     }
 
+    await publisher.publish('queue_name', channel, data)
     await collection.insertOne(payload)
     client.close()
 
