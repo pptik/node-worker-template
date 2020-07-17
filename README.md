@@ -2,6 +2,9 @@
 
 Repository ini berguna untuk mengambil base-template untuk worker menggunakan Node.JS
 
+## Status
+Repository ini sudah diarsipkan dan belum ada informasi untuk kelanjutan development-nya
+
 ## Apa isinya?
 
 - amqplib ^0.5.3
